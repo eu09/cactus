@@ -3,6 +3,67 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/hyperledger/cactus/compare/v0.3.0...v0.4.0) (2021-03-10)
+
+
+### Bug Fixes
+
+* **api-client:** flaky DefaultConsortiumProvider test [#605](https://github.com/hyperledger/cactus/issues/605) ([2ff9a25](https://github.com/hyperledger/cactus/commit/2ff9a25c316b8567e8393748386f4187cd58ea48))
+* **ci:** fix manual of auto-testing codes ([217c623](https://github.com/hyperledger/cactus/commit/217c623001346dc8cb2b57a8eec3af011d3ef15b))
+* **cmd-api-server:** config generator emits correct type ([ecd63b9](https://github.com/hyperledger/cactus/commit/ecd63b9fac831f198f0f979754a7790f61133f49)), closes [#598](https://github.com/hyperledger/cactus/issues/598)
+* **cmd-api-server:** missing pretsc npm script [#500](https://github.com/hyperledger/cactus/issues/500) ([a79b11a](https://github.com/hyperledger/cactus/commit/a79b11a3a0001a9fb9732da295451f1b424e7b35))
+* **cockpit:** compilation issues [#496](https://github.com/hyperledger/cactus/issues/496) ([fad9fff](https://github.com/hyperledger/cactus/commit/fad9fffb59136f1fdbcef4645a0da3ccd2913233))
+* **common:** servers.listen() port validation ([cd50124](https://github.com/hyperledger/cactus/commit/cd50124728fa6711bc1a1b7501964bb9b1727bcc)), closes [#491](https://github.com/hyperledger/cactus/issues/491)
+* **connector-besu:** added test for call with parameters ([1fa24be](https://github.com/hyperledger/cactus/commit/1fa24bed8f42d39dd7b9ce989b8192774a9c7257))
+* **connector-besu:** avoid req.params repetition ([64d6cf1](https://github.com/hyperledger/cactus/commit/64d6cf1f56375c9dd97c7cdf0d11c573fdf26b5a))
+* **connector-besu:** fixed transaction value assignment and added test ([48bb129](https://github.com/hyperledger/cactus/commit/48bb1294f03f8b488c6f570b1e248f26aef2ccd1))
+* **connector-besu:** revert change in generated code ([075ad90](https://github.com/hyperledger/cactus/commit/075ad90000507b95774065b7fad280b09a49c5f7))
+* **connector-quorum:** ether value and query params added ([0275451](https://github.com/hyperledger/cactus/commit/02754513c032cc65db96a77ba3b936aef29f34be))
+* **deps:** missing uuid from plugins [#529](https://github.com/hyperledger/cactus/issues/529) ([04ea8bb](https://github.com/hyperledger/cactus/commit/04ea8bb8a035382de078d082889c8fdfd48479f8))
+* **docs:** add examples/electiricty-trade guidance on README ([2b64f6a](https://github.com/hyperledger/cactus/commit/2b64f6af9a1718eb9d7c4e7e278ebab58ef90ff1))
+* **example:** fix README and tsconfig.json ([79ef712](https://github.com/hyperledger/cactus/commit/79ef712fe0c5f926dd1589f33ca8bbe0021f35fa))
+* **example:** fix README on car-trade ([0a3e411](https://github.com/hyperledger/cactus/commit/0a3e4110283448328209881e26857a9ebce70623))
+* **examples:** fix logger.error ([358f646](https://github.com/hyperledger/cactus/commit/358f646bf9bfa0653e7d0e8bee37b220e15b0e2e))
+* **examples:** fix some typo of README on examples/electricity-trade ([d846a88](https://github.com/hyperledger/cactus/commit/d846a889c03370bbce34ca67083a9757c6331a21))
+* **examples:** fix the description of Node.js verion ([fa0cc41](https://github.com/hyperledger/cactus/commit/fa0cc415bfeb46b77a4e2a4a84643569a0eddebd))
+* **examples:** fix the description of Node.js verion ([fd8235e](https://github.com/hyperledger/cactus/commit/fd8235e285bf071684def01d748e64809cf29869))
+* **keychain-vault:** add missing license to openapi.json ([70dcb7f](https://github.com/hyperledger/cactus/commit/70dcb7fab3ba5bf4a1ecc49c3ee997c3b0ef170f)), closes [#493](https://github.com/hyperledger/cactus/issues/493)
+* **ledger-plugin:** fix logger.error ([51138e0](https://github.com/hyperledger/cactus/commit/51138e04c3d1d9f086b5a7dc56fb17819206e292))
+* **ledger-plugin:** fix logger.error and remove a duplicated file ([bdf561e](https://github.com/hyperledger/cactus/commit/bdf561e55c01914f72662d430be00fa77e11eb53))
+* **lerna:** release commit message to include version ([a099638](https://github.com/hyperledger/cactus/commit/a09963842625920a2fcacb9b7cf0297729e8a6c9))
+* **npm:** clean script was missing folders ([416b82e](https://github.com/hyperledger/cactus/commit/416b82e971607129fbdfa9e1270644d0c2f5c706)), closes [#469](https://github.com/hyperledger/cactus/issues/469)
+* **package-json:** invalid webpack commit sha [#506](https://github.com/hyperledger/cactus/issues/506) ([bcf4a30](https://github.com/hyperledger/cactus/commit/bcf4a30f4b462d8608613f2af1220e5e09481a43))
+* **test-tooling:** removed latest tag ([24d593d](https://github.com/hyperledger/cactus/commit/24d593d6156e8128286e6230dbb867f1afefef7d))
+* **tools:** fabric all-in-one build cannot find rust compiler [#617](https://github.com/hyperledger/cactus/issues/617) ([630537f](https://github.com/hyperledger/cactus/commit/630537fab81846ee122922f8be76472ff89e0606))
+* **tools:** fabric all-in-one SSH access denied [#631](https://github.com/hyperledger/cactus/issues/631) ([e8302a1](https://github.com/hyperledger/cactus/commit/e8302a11cc9428622711db3b1f4f3b480db847ec))
+* dci lint errors [#514](https://github.com/hyperledger/cactus/issues/514) ([99ab3af](https://github.com/hyperledger/cactus/commit/99ab3afa23b043d4d5b7d6f75db33d4256a11af9))
+* reverting accidental manual change in generated code ([e67369f](https://github.com/hyperledger/cactus/commit/e67369f6b9bded6f54231cbcb34de534b6a80f5b)), closes [#453](https://github.com/hyperledger/cactus/issues/453)
+* webpack 5 NodeJS polyfills for web GUI ([f5c2184](https://github.com/hyperledger/cactus/commit/f5c21840d1b6ec89266abc4b51134f7f37c424b5)), closes [#486](https://github.com/hyperledger/cactus/issues/486)
+
+
+### Features
+
+* **ci:** add a sample of auto-testing codes ([9bdd0b2](https://github.com/hyperledger/cactus/commit/9bdd0b239d222c0697b5d64c49a67ed031cb8b66))
+* **common:** servers.startOnPort() host arg [#527](https://github.com/hyperledger/cactus/issues/527) ([febc06f](https://github.com/hyperledger/cactus/commit/febc06f4baf6f1baf9bb4232c2ba700e8cce822d))
+* **connector-besu:** added ether value in  contract invoke request ([add9cd9](https://github.com/hyperledger/cactus/commit/add9cd94ed7fe4a7facda89749895f7b04de89a8))
+* **corda:** add Corda ledger support ([5623369](https://github.com/hyperledger/cactus/commit/5623369aa3b5f3b75cbafb58499b24da6efc896d))
+* **core-api:** common consortium interface ([aa070ad](https://github.com/hyperledger/cactus/commit/aa070ade45c82cd067cbea09c04fe7b94f76368e))
+* **core-api:** plugin import types: LOCAL & REMOTE ([f4d51da](https://github.com/hyperledger/cactus/commit/f4d51dae5b28367e714a2b9aa35dd84a2cb4cb37))
+* **examples:** add an example app using Sawtooth and Go-Ethereum ([3e4945b](https://github.com/hyperledger/cactus/commit/3e4945b37f13c36ecaafb0c44e2f59ae25cd5279))
+* **examples:** add APIs for setting trade parameters on example/electricity-trade ([d28131e](https://github.com/hyperledger/cactus/commit/d28131e3f48562aa461df0e78d3ef816a75a33b1))
+* **fabric:** add prometheus exporter ([b892655](https://github.com/hyperledger/cactus/commit/b892655c1cb8fb1ce20fcd8f061d6f4e998eea6b)), closes [#531](https://github.com/hyperledger/cactus/issues/531)
+* **keychain:** add rust keychain plugin vault implementation ([6dcdb8a](https://github.com/hyperledger/cactus/commit/6dcdb8a02db30e4dfe3d912bd56d5979b0cb3bc3))
+* **keychain:** implement OpenAPI endpoints ([3a0acf4](https://github.com/hyperledger/cactus/commit/3a0acf4cb350a286500aa80ed4ac5d15f9501ea4))
+* **ledger-plugin:** add signature/verification features into Validator/Verifier ([a2227eb](https://github.com/hyperledger/cactus/commit/a2227eb851524fce750c47783605d2f7b506fa24))
+* **LedgerPlugin:** add monitoring features on Ledger Plugin Validator for Hyperledger Sawtooth ([958876b](https://github.com/hyperledger/cactus/commit/958876bd17f39e31ef21e2d553f02b6b116f0493))
+* **LedgerPlugin:** fix copyright ([d4f1277](https://github.com/hyperledger/cactus/commit/d4f127792598214cfbcfc1dd1940a7f321f29396))
+* **refactor:** openapi endpoint paths ([261c17b](https://github.com/hyperledger/cactus/commit/261c17b08124070c7be0890d6bc3da380255893b))
+* **test-tooling:** containers#getById and #waitForHealthCheck ([4a7fbfe](https://github.com/hyperledger/cactus/commit/4a7fbfe19cdc269b3b197c736ecce4395b39e1e3)), closes [#471](https://github.com/hyperledger/cactus/issues/471)
+
+
+
+
+
 # [0.3.0](https://github.com/petermetz/blockchain-integration-framework/compare/v0.1.0...v0.3.0) (2021-01-06)
 
 

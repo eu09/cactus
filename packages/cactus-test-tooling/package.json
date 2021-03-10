@@ -1,6 +1,6 @@
 {
   "name": "@hyperledger/cactus-test-tooling",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Swiss army knife for test development. Main goal is to make pulling up test/dummy ledgers on the fly for tests easy, especially for test cases that are about simulating clean ledger state or wiped ledger state, etc.",
   "main": "dist/lib/main/typescript/index.js",
   "mainMinified": "dist/cactus-test-tooling.node.umd.min.js",
@@ -31,7 +31,10 @@
       "ignore": [
         "src/**/generated/*"
       ],
-      "extensions": ["ts", "json"],
+      "extensions": [
+        "ts",
+        "json"
+      ],
       "quiet": true,
       "verbose": false,
       "runOnChangeOnly": true
@@ -78,7 +81,7 @@
   },
   "homepage": "https://github.com/hyperledger/cactus#readme",
   "dependencies": {
-    "@hyperledger/cactus-common": "0.3.0",
+    "@hyperledger/cactus-common": "0.4.0",
     "axios": "0.21.1",
     "compare-versions": "3.6.0",
     "dockerode": "3.2.0",
@@ -100,8 +103,8 @@
     "@types/extract-zip": "1.6.2",
     "@types/fs-extra": "8.1.0",
     "@types/joi": "14.3.4",
-    "@types/ssh2": "0.5.44",
     "@types/node-ssh": "7.0.0",
+    "@types/ssh2": "0.5.44",
     "@types/tar-stream": "2.1.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@hyperledger/cactus-plugin-ledger-connector-fabric",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Allows Cactus nodes to connect to a Fabric ledger.",
   "main": "dist/lib/main/typescript/index.js",
   "mainMinified": "dist/cactus-plugin-ledger-connector-fabric.node.umd.min.js",
@@ -33,7 +33,10 @@
       "ignore": [
         "src/**/generated/*"
       ],
-      "extensions": ["ts", "json"],
+      "extensions": [
+        "ts",
+        "json"
+      ],
       "quiet": true,
       "verbose": false,
       "runOnChangeOnly": true
@@ -80,9 +83,9 @@
   },
   "homepage": "https://github.com/hyperledger/cactus#readme",
   "dependencies": {
-    "@hyperledger/cactus-common": "0.3.0",
-    "@hyperledger/cactus-core": "0.3.0",
-    "@hyperledger/cactus-core-api": "0.3.0",
+    "@hyperledger/cactus-common": "0.4.0",
+    "@hyperledger/cactus-core": "0.4.0",
+    "@hyperledger/cactus-core-api": "0.4.0",
     "bl": "1.2.3",
     "express": "4.17.1",
     "express-openapi-validator": "3.16.11",
@@ -103,8 +106,8 @@
     "web3-eea": "0.9.0"
   },
   "devDependencies": {
-    "@hyperledger/cactus-plugin-keychain-memory": "0.3.0",
-    "@hyperledger/cactus-test-tooling": "0.3.0",
+    "@hyperledger/cactus-plugin-keychain-memory": "0.4.0",
+    "@hyperledger/cactus-test-tooling": "0.4.0",
     "@types/express": "4.17.8",
     "@types/joi": "14.3.4",
     "@types/multer": "1.4.4",
